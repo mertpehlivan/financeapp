@@ -1,0 +1,33 @@
+.crypto-card {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .crypto-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .crypto-card p {
+    margin: 5px 0;
+    font-size: 1.1em;
+  }
+  
+  .positive {
+    color: green;
+  }
+  
+  .negative {
+    color: red;
+  }
+  
+  .crypto-card-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
